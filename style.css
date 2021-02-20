@@ -9,12 +9,14 @@
 }
 
 .header {
+    z-index: 1;
     position: relative;
     display: flex;
     margin: 0 auto;
     width: 4098px;
     height: 150px;
     left: 0px;
+    transition: left 2s linear;
 }
 
 .header img {
@@ -27,14 +29,18 @@
 }
 
 .buton {
+    margin: 0 auto;
+    z-index: 22;
+    position: relative;
+    top: -12px;
     display: flex;
     justify-content: space-between;
-    width: 700px;
+    width: 225px;
     height: 10px;
 }
 
 .buton_onclick {
-    background-color: rgba(33, 34, 33, 0.267);
+    background: rgba(0, 0, 0, 0.267);
     width: 50px;
     height: 10px;
     border-radius: 5px;
